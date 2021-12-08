@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*overflow-x: hidden;*/
+    background: linear-gradient(0deg, #D3D3D3, #D3D3D3);
+    width: 1440px;
+    text-align: center;
+    justify-content: center;
+}
+
+/*=========================section_1===================*/
+
+.section_1 {
+    background: #000;
+}
+
+.navbar_ .navbar_div .logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.section_1 ul li {
+    height: 50px;
+}
+
+.section_1 ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+em a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+em a:hover {
+    border-bottom: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section_1 ul li:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.navbar_div {
+    align-items: center;
+    line-height: 70px;
+}
+
+.logo_span_1 {
+    font-size: 20px;
+}
+
+.logo_span_2 {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/*===============section_2================*/
+
+.section_2 {
+    /*width: 100%;*/
+    /*height: 500px;*/
+    margin-left: 95px;
+    background-image: url("./images/deluxe_glavne.png");
+    width: 100%;
+    height: 98vh;
+    background-repeat: no-repeat;
+    align-items: center;
+
+}
+
+.section_2 h1{
+    font-family: Garamond sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.section_2 .div_logo_2 img{
+    width: 146px;
+    height: 146px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+}
+
+/*=============div_left==============*/
+
+.div_left {
+    position: absolute;
+    width: 95px;
+    height: 98vh;
+    background: #191919;
+}
+
+.div_left .ins {
+    text-align: center;
+    padding: 5px;
+    justify-content: center;
+}
+
+.div_left div h5 {
+    font-family: Roboto sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #E1DECE;
+    transform: rotate(-89.39deg);
+}
+
+.div_left .text_left {
+    margin-top: 150px;
+    height: 90px;
+}
+
+.div_left .dl1 {
+    height: 85px;
+    margin-top: -35px;
+}
+
+.div_left .dl {
+    margin-top: -8px;
+}
+
+.div_left_line {
+    width: 1px;
+    height: 55px;
+    background: #E1DECE;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: -10px;
+}
+
+.div_ins {
+    margin-top: 30px;
+}
+
+.section_3 {
+    position: relative;
+}
+
+.section_3 .uch_burchak {
+    width: 100%;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 1500px solid transparent;
+    border-top: 700px solid #191919;
+    background-color: transparent;
+    position: absolute;
+}
+
+.section_3 .uch_burchak img {
+    margin-top: -500px;
+    position: absolute;
+}
+
+.section_3 h4 {
+    margin-top: 400px;
+}
+
+.section_3 .div_p{
+    margin-top: 400px;
+}

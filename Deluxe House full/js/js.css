@@ -1,0 +1,16 @@
+/*js*/
+
+.prim-color{
+    background: purple;
+    color: #FFFFFF;
+}
+
+.dark-color{
+    background: #000000;
+    color: purple;
+}
+
+.danger-color{
+    background: red;
+    color: #000000;
+}
